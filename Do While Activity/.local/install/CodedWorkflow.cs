@@ -14,7 +14,7 @@ using UiPath.UIAutomationNext.API.Models;
 using UiPath.UIAutomationNext.Enums;
 using UiPath.CodedWorkflows.DescriptorIntegration;
 
-namespace areaofcircle
+namespace DoWhileActivity
 {
     public partial class CodedWorkflow : CodedWorkflowBase
     {
@@ -31,14 +31,14 @@ namespace areaofcircle
     }
 }
 
-namespace areaofcircle.ObjectRepository
+namespace DoWhileActivity.ObjectRepository
 {
     public static class Descriptors
     {
     }
 }
 
-namespace areaofcircle._Implementation
+namespace DoWhileActivity._Implementation
 {
     internal class ScreenDescriptorDefinition : IScreenDescriptorDefinition
     {
