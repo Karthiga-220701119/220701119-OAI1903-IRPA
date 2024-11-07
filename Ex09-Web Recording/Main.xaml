@@ -1,0 +1,270 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1150,2804" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Kavibalan.P(220701121)" sap:VirtualizedContainerService.HintSize="546,2739.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_30">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: New Tab - Google Chrome" sap:VirtualizedContainerService.HintSize="484,852.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_20" ScopeGuid="a4c761cf-946c-482e-a064-4c2828cd71f1" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,558.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_28">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'New Tab - Google Chrome'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,220" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="a4c761cf-946c-482e-a064-4c2828cd71f1" Text="ui phoria rec" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="21eocD7k5EahWg4tcdbCMg" DesignTimeRectangle="0, 0, 1942, 1150" DesignTimeScaleFactor="1.5" FriendlyName="'New Tab - Google Chrome'" Guid="7e2103fb-5039-4afc-ae59-2d7ab2352c07" InformativeScreenshot="ec0de856bcb110c2fa746833956db81a.png" Reference="n1ufM6Z4uE2XBpV4zToluA/yMZ0JGjTIEuWcIR1hIF-Rw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='New Tab - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.FuzzySelectorArgument>
+                    <InArgument x:TypeArguments="x:String">
+                      <Literal x:TypeArguments="x:String" Value="" />
+                    </InArgument>
+                  </uix:TargetAnchorable.FuzzySelectorArgument>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="388,182.66666666666666" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" InteractionMode="SameAsCard" ScopeIdentifier="a4c761cf-946c-482e-a064-4c2828cd71f1" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" ContentHash="csjocjzjy0mdkR7KV3Q2bw" FilePath="C:\Users\kavi0\AppData\Local\Google\Chrome\Application\chrome.exe" IconBase64="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" InformativeScreenshot="b11306b90c54012848225d2462171308.png" Reference="n1ufM6Z4uE2XBpV4zToluA/T9prnx3tPEyUFAiEoKXc7A" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='New Tab - Google Chrome' /&gt;" Title="New Tab - Google Chrome" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: ui phoria rec - Yahoo India Search Results" sap:VirtualizedContainerService.HintSize="484,493.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_21" InteractionMode="DebuggerApi" ScopeGuid="e9c14470-ac6e-476a-ba88-54dc5c4ec2d4" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,274.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_29">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'www.uiphoria.inUiPhoria'" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e9c14470-ac6e-476a-ba88-54dc5c4ec2d4" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://in.search.yahoo.com/search?fr=mcafee&amp;type=E210IN105G0&amp;p=ui+phoria+rec" ContentHash="KF8cW6x-dEyb0cHXkKmnvQ" CvTextArea="237, 440, 103, 22" CvTextArgument="UiPhoria" CvType="Text" DesignTimeRectangle="239, 432, 102, 39" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'www.uiphoria.inUiPhoria'" FullSelectorArgument="&lt;webctrl aria-label='UiPhoria' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='UiPhoria' tag='A' type='' class='d-ib fz-20 lh-26 td-hu tc va-bot mxw-100p' aaname='www.uiphoria.inUiPhoria' check:innerText='www.uiphoria.in&amp;#xA;UiPhoria' /&gt;" Guid="24cee216-7a61-43c7-a04e-e80212ae0b85" InformativeScreenshot="236f594bd3c379bbb9719b40aafda888.png" Reference="n1ufM6Z4uE2XBpV4zToluA/3Azghu4I4Um2_eJtTzUvog" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ui phoria rec - Yahoo India Search Results' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="239, 474, 930, 66" ElementType="Text" FriendlyName="'The automation'" FullSelectorArgument="&lt;webctrl parentid='web' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='web' tag='P' type='' class='fz-14 lh-22 mah-44 ov-h d-box fbox-ov fbox-lc2' aaname='  ' check:innerText='The automation club of REC. Your gateway to the world of bots, cool sessions related to RPA and' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset Y="6" />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="ckzWVhaEaEycve1B5oA1nQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJdSURBVFhHY0hgvPR/IPGoA0YdMHwdUKN36/+TK99R8Lq6FxjqaOaAY0ve/UcHzZZ3MNTRxAEF0tf+//71D2otBDw49w2rWpo4YEvHK6i1CDAz5hFWtVR3QBr35f9f3v2BWgsB757++p/Mil09VgfcPvYFqhUCDs55i6FmfcMLqCwE3DnxFSy+OOcpVAQBVlU8x9APw1gdMCXkAVQrBPz4+vd/psAVuHwSyyWwr5DBtIiH/xOZLv1/cfsHVAQCfnz5+z9L8CqK+cgYqwMSmS/9f33/J9QICFia/xQuj+7Ad09+gR01MQBVHAT2THmDYjY6xpkGlhagBuWz69/hctf2fYaKQsDqSkgQ3ziEGnV///77X6ZyA64PG8bpgAzeK/+/fURNTB2Od/9Xat6E8iDg57e//7OFr/5P5bwMDn5kfGAWZtpBxzgdAMLbe1Cz06nVH/7vnvQayoMAZEtAjk5hv4xiBiGM1wFFctf///mNKFBA7G+fUEOlSvvm/xyRq/8v7fj0/9+/f2A1IEdiMw8bxusAED6x4j3UKkxwedcnsJojCzGL3emRDzHMwoYJOqDR7DbUSEzQ530frObJ1e9QEQTY2IRZ8WDDBB0AwreOoKZuEHh+8wdcfs/UN1BRCABFRYs1ZsWDDRPlgMlBmPl7UfYTuDyo+N077c3/Nw9//n94/hu4UELWjw8T5YB+n/tQayHg64c//9N5ECUjJZgoB6AXPKDsiU0dOZigA2oNbkGthYC/f/79L1a4jlUtOZigA44uQs1ip9d+wKqOXExUFNASjzpg1AED7IBL/wEEb/bMxqNS/AAAAABJRU5ErkJggg==" InformativeScreenshot="2f6163aa94b6bfa0097103fc4f32f9df.jpg" Reference="n1ufM6Z4uE2XBpV4zToluA/dauEC7nhiEW2pDsrDp3twQ" Selector="&lt;html app='chrome.exe' title='ui phoria rec - Yahoo India Search Results' /&gt;" Title="ui phoria rec - Yahoo India Search Results" Url="https://in.search.yahoo.com/search?fr=mcafee&amp;type=E210IN105G0&amp;p=ui+phoria+rec" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: UiPhoria" sap:VirtualizedContainerService.HintSize="484,1172" sap2010:WorkflowViewState.IdRef="NApplicationCard_22" InteractionMode="DebuggerApi" ScopeGuid="82fbdfd9-404d-498d-aa04-9d935ae11b78" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,953.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_31">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Weekly Contest'" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82fbdfd9-404d-498d-aa04-9d935ae11b78" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.uiphoria.in/" ContentHash="ssL7kP_kKU-rUkGnD7UdHA" CvElementArea="1139, 198, 31, 33" CvTextArea="960, 201, 180, 31" CvTextArgument="Weekly Contest" CvType="ArrowButton" DesignTimeRectangle="952, 176, 222, 65" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Weekly Contest'" FullSelectorArgument="&lt;webctrl id='navbarDropdown' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='navbarDropdown' tag='A' type='' class='nav-link dropdown-toggle' aaname='Weekly Contest' check:innerText='Weekly Contest' /&gt;" Guid="03c95cac-189f-4e45-b133-61539c6dbe6f" InformativeScreenshot="8b58360da5e8cb10b55155415c1232b6.png" Reference="n1ufM6Z4uE2XBpV4zToluA/x6rRfVbKz0G3S9bNM7pZGg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPhoria' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Question'" sap:VirtualizedContainerService.HintSize="388,158.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82fbdfd9-404d-498d-aa04-9d935ae11b78" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.uiphoria.in/" ContentHash="CfUx56MXDkauqlmYUSI72w" DesignTimeRectangle="952, 244, 239, 60" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Question'" FullSelectorArgument="&lt;webctrl aaname='Question' parentid='navbarSupportedContent' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Question' parentid='navbarSupportedContent' tag='A' type='' class='dropdown-item nav-link' check:innerText='Question' /&gt;" Guid="2d99d38d-c4fa-4e7b-b2c7-93741232e9bd" InformativeScreenshot="a3f1a2d38ab7026751ff112c637f4f0c.png" Reference="n1ufM6Z4uE2XBpV4zToluA/aX-LI9ugN0-klCFA0h6oAQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPhoria' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit Here!'" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82fbdfd9-404d-498d-aa04-9d935ae11b78" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.uiphoria.in/weekly-contest-question.html" ContentHash="3h9huPVvIk28IDCRQzypDw" DesignTimeRectangle="837, 286, 228, 72" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Submit Here!'" FullSelectorArgument="&lt;webctrl parentid='content1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='content1' tag='A' type='' class='text-decoration-none' aaname='Submit Here!' check:innerText='Submit Here!' /&gt;" Guid="439af1d5-3ecd-4bdc-b75f-18faa61fbd25" InformativeScreenshot="fd7442a859f291d06b94763b5ba255cf.png" Reference="n1ufM6Z4uE2XBpV4zToluA/N-4fIZzXZ0OxQT6BsqQQfA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Weekly Contest Question | UiPhoria' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV'" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82fbdfd9-404d-498d-aa04-9d935ae11b78" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSevPvkVt-5bSDFLADQOf7q26jYjK0K7pzgeQ6ymkRVCPYosdA/viewform" ContentHash="iQJmpLl1nU2mYh_Hieujfg" CvElementArea="661, 212, 24, 24" CvType="CheckBox" DesignTimeRectangle="666, 215, 16, 16" DesignTimeScaleFactor="1" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl idx='2' parentid='i5' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='i5' tag='DIV' class='uHMk6b fsHoPb' aaname='' /&gt;" Guid="8c538285-2878-430b-a09e-f186d3f80add" InformativeScreenshot="d202e7efa087c3bc762d6766187d9e88.png" Reference="n1ufM6Z4uE2XBpV4zToluA/0uDM29TMVkOyy6OenpJ7ow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Weekly Contest: Season 02 - Week 27 (Basic)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '*'" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_13" ScopeIdentifier="82fbdfd9-404d-498d-aa04-9d935ae11b78" Text="Kavibalan P" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSevPvkVt-5bSDFLADQOf7q26jYjK0K7pzgeQ6ymkRVCPYosdA/viewform" ContentHash="HcgqXuhUbkyAVsWYdBpX4g" CvTextArea="662, 306, 53, 15" CvTextArgument="Name *" CvType="Text" DesignTimeRectangle="664, 306, 295, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='whsOnd zHQkBf' aaname='' /&gt;" Guid="7574650f-2bb5-4c44-b9f8-5b45fb37a2e1" InformativeScreenshot="631fdb1b87364e448de4354d17af0ef0.png" IsResponsive="True" Reference="n1ufM6Z4uE2XBpV4zToluA/BpQ9gKYvFk-LMvZJ0ZEaDQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Weekly Contest: Season 02 - Week 27 (Basic)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                      <uix:Target DesignTimeRectangle="706, 252, 11, 24" ElementType="Text" FriendlyName="'*'" FullSelectorArgument="&lt;webctrl id='i11' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='i11' tag='SPAN' type='' class='vnumgf' aaname=' *' check:innerText='*' /&gt;" SearchSteps="FuzzySelector" />
+                      <uix:Target DesignTimeRectangle="664, 252, 43, 24" ElementType="Text" FriendlyName="'Name'" FullSelectorArgument="&lt;webctrl parentid='i8' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='i8' tag='SPAN' type='' class='M7eMe' aaname='Name' check:innerText='Name' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Mobile Number'" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_14" ScopeIdentifier="82fbdfd9-404d-498d-aa04-9d935ae11b78" Text="6369473967" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSevPvkVt-5bSDFLADQOf7q26jYjK0K7pzgeQ6ymkRVCPYosdA/viewform" ContentHash="p5z5JeNFSEubvCive-zdcw" DesignTimeRectangle="664, 418, 295, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Your answer'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='10' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='aCsJod oJeWuf' tag='DIV' aaname='' /&gt;" Guid="15583393-ed36-434f-960b-5d9b447f4fb0" InformativeScreenshot="ed03d431431e5c8c3d522dd72aa58ca7.png" Reference="n1ufM6Z4uE2XBpV4zToluA/9tx95npM5UmO_NkezbxpJA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Weekly Contest: Season 02 - Week 27 (Basic)' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvElementArea="657, 348, 302, 37" CvType="InputBox" DesignTimeRectangle="664, 364, 109, 24" FriendlyName="'Mobile Number'" FullSelectorArgument="&lt;webctrl parentid='i12' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='i12' tag='SPAN' type='' class='M7eMe' aaname='Mobile Number' check:innerText='Mobile Number' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'College Name'" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_15" ScopeIdentifier="82fbdfd9-404d-498d-aa04-9d935ae11b78" Text="Rajalakshmi Engineering College" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSevPvkVt-5bSDFLADQOf7q26jYjK0K7pzgeQ6ymkRVCPYosdA/viewform" ContentHash="k2CI9XbbAUGrt5m2pIFB9A" CvElementArea="657, 798, 300, 35" CvType="InputBox" DesignTimeRectangle="664, 791, 295, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Your answer'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='14' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='aCsJod oJeWuf' tag='DIV' aaname='' /&gt;" Guid="dc98ac40-e3bd-418d-9046-6c28db46dfda" InformativeScreenshot="ef2470483b86c66855b455a7d4b9c589.png" Reference="n1ufM6Z4uE2XBpV4zToluA/n0do9lORGU6It5bdafittA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Weekly Contest: Season 02 - Week 27 (Basic)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="662, 728, 102, 19" CvTextArgument="College Name" CvType="Text" DesignTimeRectangle="664, 725, 100, 24" FriendlyName="'College Name'" FullSelectorArgument="&lt;webctrl parentid='i16' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='i16' tag='SPAN' type='' class='M7eMe' aaname='College Name' check:innerText='College Name' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_16" ScopeIdentifier="82fbdfd9-404d-498d-aa04-9d935ae11b78" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSevPvkVt-5bSDFLADQOf7q26jYjK0K7pzgeQ6ymkRVCPYosdA/viewform" DesignTimeRectangle="664, 598, 295, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Your answer'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='18' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='aCsJod oJeWuf' tag='DIV' aaname='' /&gt;" Guid="ab68123a-93bc-4292-8bed-15801af06b1b" InformativeScreenshot="728b49bd9860ad87ea585d9587bdb9f4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Weekly Contest: Season 02 - Week 27 (Basic)' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="664, 532, 84, 24" FriendlyName="'Department'" FullSelectorArgument="&lt;webctrl parentid='i20' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='i20' tag='SPAN' type='' class='M7eMe' aaname='Department' check:innerText='Department' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Department'" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_17" ScopeIdentifier="82fbdfd9-404d-498d-aa04-9d935ae11b78" Text=" Computer Science Engineering" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSevPvkVt-5bSDFLADQOf7q26jYjK0K7pzgeQ6ymkRVCPYosdA/viewform" ContentHash="wNIHxqtOE0inqy3HwSyIMQ" CvElementArea="658, 606, 299, 34" CvType="InputBox" DesignTimeRectangle="664, 612, 295, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl aria-labelledby='i20' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='i20' tag='INPUT' type='text' class='whsOnd zHQkBf' aaname='' /&gt;" Guid="d3eb81cc-60e3-4582-8072-c52859d44e97" InformativeScreenshot="a29d3380969f7d17acc6b26e46274044.png" Reference="n1ufM6Z4uE2XBpV4zToluA/L5Ypti3hxUam81OiWzi3EQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Weekly Contest: Season 02 - Week 27 (Basic)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="662, 534, 85, 19" CvTextArgument="Department" CvType="Text" DesignTimeRectangle="664, 532, 84, 24" FriendlyName="'Department'" FullSelectorArgument="&lt;webctrl parentid='i20' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='i20' tag='SPAN' type='' class='M7eMe' aaname='Department' check:innerText='Department' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV'" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82fbdfd9-404d-498d-aa04-9d935ae11b78" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSevPvkVt-5bSDFLADQOf7q26jYjK0K7pzgeQ6ymkRVCPYosdA/viewform" ContentHash="SxoayBKsz0edWlrH8YuizQ" CvElementArea="661, 853, 26, 26" CvType="RadioButton" DesignTimeRectangle="664, 855, 20, 20" DesignTimeScaleFactor="1" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;label&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='i34' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='i34' tag='DIV' class='AB7Lab Id5V1' aaname='' /&gt;" Guid="677a5149-6865-4f12-816e-ca1ee7d67e28" InformativeScreenshot="b6b348c7819235c397782b9ac3ab2c82.png" Reference="n1ufM6Z4uE2XBpV4zToluA/05eKKqIzYUS7TxOzyxhFyw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Weekly Contest: Season 02 - Week 27 (Basic)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="qhyi__f57USYnw6WS4TALg" IconBase64="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" InformativeScreenshot="f161156db871de4b14f1d44e4b90d0bb.jpg" Reference="n1ufM6Z4uE2XBpV4zToluA/vgvuU9wvXUq4HDG6gtImGA" Selector="&lt;html app='chrome.exe' title='UiPhoria' /&gt;" Title="UiPhoria" Url="https://www.uiphoria.in/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

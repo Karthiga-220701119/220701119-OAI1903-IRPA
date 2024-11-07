@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wNIHxqtOE0inqy3HwSyIMQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSevPvkVt-5bSDFLADQOf7q26jYjK0K7pzgeQ6ymkRVCPYosdA/viewform" CvElementArea="658, 606, 299, 34" CvType="InputBox" DesignTimeRectangle="664, 612, 295, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl aria-labelledby='i20' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='i20' tag='INPUT' type='text' class='whsOnd zHQkBf' aaname='' /&gt;" Guid="d3eb81cc-60e3-4582-8072-c52859d44e97" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Weekly Contest: Season 02 - Week 27 (Basic)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="662, 534, 85, 19" CvTextArgument="Department" CvType="Text" DesignTimeRectangle="664, 532, 84, 24" FriendlyName="'Department'" FullSelectorArgument="&lt;webctrl parentid='i20' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='i20' tag='SPAN' type='' class='M7eMe' aaname='Department' check:innerText='Department' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a29d3380969f7d17acc6b26e46274044.png" xmlns="">0AgOsXm0W_02p2VQ684faSA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

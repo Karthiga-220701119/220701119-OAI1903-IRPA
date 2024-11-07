@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KF8cW6x-dEyb0cHXkKmnvQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://in.search.yahoo.com/search?fr=mcafee&amp;type=E210IN105G0&amp;p=ui+phoria+rec" CvTextArea="237, 440, 103, 22" CvTextArgument="UiPhoria" CvType="Text" DesignTimeRectangle="239, 432, 102, 39" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'www.uiphoria.inUiPhoria'" FullSelectorArgument="&lt;webctrl aria-label='UiPhoria' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='UiPhoria' tag='A' type='' class='d-ib fz-20 lh-26 td-hu tc va-bot mxw-100p' aaname='www.uiphoria.inUiPhoria' check:innerText='www.uiphoria.in&amp;#xA;UiPhoria' /&gt;" Guid="24cee216-7a61-43c7-a04e-e80212ae0b85" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ui phoria rec - Yahoo India Search Results' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="239, 474, 930, 66" ElementType="Text" FriendlyName="'The automation'" FullSelectorArgument="&lt;webctrl parentid='web' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='web' tag='P' type='' class='fz-14 lh-22 mah-44 ov-h d-box fbox-ov fbox-lc2' aaname='  ' check:innerText='The automation club of REC. Your gateway to the world of bots, cool sessions related to RPA and' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Y="6" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="236f594bd3c379bbb9719b40aafda888.png" xmlns="">0UewvHjSC5E6wSR4IoDiQug</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

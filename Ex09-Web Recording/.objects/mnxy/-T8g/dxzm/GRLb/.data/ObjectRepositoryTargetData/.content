@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3jcG7DpSOUCaUjQcRdCeNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.youtube.com/watch?v=2qVD1avLvyo" DesignTimeRectangle="1141, 771, 72, 72" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'BUTTON'" FullSelectorArgument="&lt;webctrl aaname='Full screen (f)' parentid='movie_player' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Full screen (f)' parentid='movie_player' tag='BUTTON' type='' class='ytp-fullscreen-button ytp-button' /&gt;" Guid="4ec3e02b-4f64-4212-8185-ea9609a9e7ea" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Indian Cars Simulator 3D: Modified Lamborghini Car Driver (Gadi Wala Game) - Car Game Android Game - YouTube' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="17aa3218670d5ee3848aa75004db78d6.png" xmlns="">0hpbJxYpcMkeZtdl5OG_1TA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

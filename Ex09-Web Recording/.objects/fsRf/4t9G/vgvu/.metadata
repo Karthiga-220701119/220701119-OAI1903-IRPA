@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome: UiPhoria",
+  "Type": "Screen",
+  "Id": "vgvuU9wvXUq4HDG6gtImGA",
+  "Reference": "n1ufM6Z4uE2XBpV4zToluA/vgvuU9wvXUq4HDG6gtImGA",
+  "ParentRef": "n1ufM6Z4uE2XBpV4zToluA/4t9GQ0awGEqp1D8N8ZHunQ",
+  "Created": "2024-09-03T18:13:40.1012941Z",
+  "Updated": "2024-09-03T18:13:40.1012941Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

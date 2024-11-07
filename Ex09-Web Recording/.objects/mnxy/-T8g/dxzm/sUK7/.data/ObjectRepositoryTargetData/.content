@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="U7DG95KZKkWUrUmdclGXgg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.youtube.com/" DesignTimeRectangle="507, 164, 773, 39" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT search'" FullSelectorArgument="&lt;webctrl id='search' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="9a747472-9615-4492-8afd-9b693b2908c1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(7) YouTube' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2c395d777e4d6c4042d08c216d6996db.png" xmlns="">0Wj8wyQBY5E224x_qaxS8PA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

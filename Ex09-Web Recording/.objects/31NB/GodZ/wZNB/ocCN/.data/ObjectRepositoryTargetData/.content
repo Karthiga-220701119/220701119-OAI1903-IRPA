@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qSF4l-2dVUGv0Tp9BCeZBw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1032, 36, 66, 72" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'button Google Chrome'" FullSelectorArgument="&lt;uia automationid='Appid: Chrome.ZILJ7ZNH4I6P43DIV52TMRRCFI' cls='Taskbar.TaskListButtonAutomationPeer' name='Google Chrome' /&gt;" FuzzySelectorArgument="&lt;uia automationid='Appid: Chrome.ZILJ7ZNH4I6P43DIV52TMRRCFI' cls='Taskbar.TaskListButtonAutomationPeer' name='Google Chrome' role='button' /&gt;" Guid="cd220e7f-f43b-4f33-ac31-ac20e1a356d7" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='Shell_TrayWnd' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
