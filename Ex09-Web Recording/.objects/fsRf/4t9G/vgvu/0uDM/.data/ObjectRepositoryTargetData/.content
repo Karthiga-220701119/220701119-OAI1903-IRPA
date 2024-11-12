@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="iQJmpLl1nU2mYh_Hieujfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSevPvkVt-5bSDFLADQOf7q26jYjK0K7pzgeQ6ymkRVCPYosdA/viewform" CvElementArea="661, 212, 24, 24" CvType="CheckBox" DesignTimeRectangle="666, 215, 16, 16" DesignTimeScaleFactor="1" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl idx='2' parentid='i5' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='i5' tag='DIV' class='uHMk6b fsHoPb' aaname='' /&gt;" Guid="8c538285-2878-430b-a09e-f186d3f80add" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Weekly Contest: Season 02 - Week 27 (Basic)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="d202e7efa087c3bc762d6766187d9e88.png" xmlns="">0JLVdfvB8V0i3z1m97ov8Vg</imageRef>
-    </TargetAnchorable>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

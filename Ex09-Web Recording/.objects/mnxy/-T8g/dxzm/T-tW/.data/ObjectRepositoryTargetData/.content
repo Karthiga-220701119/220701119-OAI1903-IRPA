@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="mtDvXhOSr027xcJBpYSbXg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.google.com/search?q=youtube&amp;rlz=1C1ONGR_en-gbIN1077IN1077&amp;oq=youtube&amp;gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyBggCECMYJzINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDIGCAcQBRhA0gEIMzgxOGowajeoAgiwAgE&amp;sourceid=chrome&amp;ie=UTF-8" DesignTimeRectangle="170, 443, 245, 47" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'YouTube: Home'" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='LC20lb MBeuO DKV0Md' aaname='YouTube: Home' check:innerText='YouTube: Home' /&gt;" Guid="a425b483-5096-4fd6-9f65-c30edc9ffd15" ScopeSelectorArgument="&lt;html app='chrome.exe' title='youtube - Google Search' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="49dc5517943c49027d088c1645b4b3d3.png" xmlns="">0WeDlYLLmj02pXE6GscHfGw</imageRef>
-    </TargetAnchorable>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="rC1tOMKJE0iwSkCe6ZT3yw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.youtube.com/" DesignTimeRectangle="459, 243, 790, 48" DesignTimeScaleFactor="1.5" FriendlyName="'rajalakshmi engineering'" FullSelectorArgument="&lt;webctrl class='sbqs_c' parentid='sbse0' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='sbqs_c' parentid='sbse0' tag='DIV' type='' aaname='rajalakshmi  college' check:innerText='rajalakshmi &amp;#xA;engineering&amp;#xA; college' /&gt;" Guid="7783a9c1-7e1e-431e-8380-e5a8dd8f9bf7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(7) YouTube' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="049e3ddda9841f0ae30579913c2e2a95.png" xmlns="">0jupfdla-c0aecHIT_7Mgww</imageRef>
-    </TargetAnchorable>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

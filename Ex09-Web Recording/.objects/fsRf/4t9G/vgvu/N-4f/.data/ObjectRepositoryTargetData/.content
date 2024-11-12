@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="3h9huPVvIk28IDCRQzypDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.uiphoria.in/weekly-contest-question.html" DesignTimeRectangle="837, 286, 228, 72" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Submit Here!'" FullSelectorArgument="&lt;webctrl parentid='content1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='content1' tag='A' type='' class='text-decoration-none' aaname='Submit Here!' check:innerText='Submit Here!' /&gt;" Guid="439af1d5-3ecd-4bdc-b75f-18faa61fbd25" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Weekly Contest Question | UiPhoria' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="fd7442a859f291d06b94763b5ba255cf.png" xmlns="">0jFJJBIi4MkCl_7wQ74x_NA</imageRef>
-    </TargetAnchorable>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

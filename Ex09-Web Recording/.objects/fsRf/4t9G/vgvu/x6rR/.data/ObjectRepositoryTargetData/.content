@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="ssL7kP_kKU-rUkGnD7UdHA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.uiphoria.in/" CvElementArea="1139, 198, 31, 33" CvTextArea="960, 201, 180, 31" CvTextArgument="Weekly Contest" CvType="ArrowButton" DesignTimeRectangle="952, 176, 222, 65" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Weekly Contest'" FullSelectorArgument="&lt;webctrl id='navbarDropdown' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='navbarDropdown' tag='A' type='' class='nav-link dropdown-toggle' aaname='Weekly Contest' check:innerText='Weekly Contest' /&gt;" Guid="03c95cac-189f-4e45-b133-61539c6dbe6f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPhoria' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="8b58360da5e8cb10b55155415c1232b6.png" xmlns="">0AbXPIxVBR0eTj0snrNEqrg</imageRef>
-    </TargetAnchorable>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>
