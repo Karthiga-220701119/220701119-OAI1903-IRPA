@@ -1,0 +1,13 @@
+﻿{
+  "Name": "The capital of Afghanis…",
+  "Type": "Element",
+  "Id": "lC1MaQTF3U-lGTEjyiDoVw",
+  "Reference": "JQ1CInOJHU20UrfXEmvzGQ/lC1MaQTF3U-lGTEjyiDoVw",
+  "ParentRef": "JQ1CInOJHU20UrfXEmvzGQ/KcOi5-RmvUudkFJOYf8XOg",
+  "Created": "2024-11-01T15:42:40.2758506Z",
+  "Updated": "2024-11-01T15:42:40.2758506Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

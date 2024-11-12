@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Je9RtL9VLEWNajXDIvsQhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.imdb.com/title/tt11663228/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_jailer" DesignTimeRectangle="47, 298, 272, 121" DesignTimeScaleFactor="1.5" FriendlyName="'Jailer2023Not Rated2h'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;div&amp;gt;div' idx='2' parentid='__next' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='sc-1f50b7c-0 iPPbjm' parentid='__next' tag='DIV' aaname='' check:innerText='Jailer&amp;#xA;2023&amp;#xA;Not Rated&amp;#xA;2h 48m' /&gt;" Guid="64c05c1d-9c89-42a1-8502-7768dbd79a7a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Jailer (2023) - IMDb' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="73393e76e35f29ad650574e6089b9d23.png" xmlns="">0swzSBJq9fku1v7zMKxTuoA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

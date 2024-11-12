@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0-2h2n9N20eyvjWCfgF79A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="timeanddate.com/weather/afghanistan" DesignTimeRectangle="209, 526, 322, 314" DesignTimeScaleFactor="1.25" FuzzySelectorArgument="&lt;webctrl id='qlook' tag='DIV' type='' class='bk-focus__qlook' aaname='' /&gt;" Guid="ba75b325-2798-4fba-b82b-988b352ec768" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Weather in Afghanistan' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ac232d71-acc9-44de-bd53-7c57902d9a95" CvElementArea="363, 427, 112, 68" CvTextArea="381, 451, 78, 18" CvTextArgument="Weather" CvType="Button" DesignTimeRectangle="369, 427, 105, 69" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Weather ' parentid='bk-nav' tag='A' type='' class='' check:innerText='Weather' /&gt;" Guid="4500796e-fdfd-4940-a6b2-c63c587420b3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="56c1bce721f6f5843f72dd7f8732424e.png" xmlns="">0v2yih0wAS0mi4dAQQyEcBg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

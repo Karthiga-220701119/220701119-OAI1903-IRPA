@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome: UiPhoria",
+  "Type": "App",
+  "Id": "fsRfyJ64C0K2RekTS58C-g",
+  "Reference": "n1ufM6Z4uE2XBpV4zToluA/fsRfyJ64C0K2RekTS58C-g",
+  "Created": "2024-09-03T18:13:40.0457784Z",
+  "Updated": "2024-09-03T18:13:40.0457784Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

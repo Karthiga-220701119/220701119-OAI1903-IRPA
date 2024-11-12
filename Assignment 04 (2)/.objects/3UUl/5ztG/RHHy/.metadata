@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome World Temperatures — Weather Around Th",
+  "Type": "Screen",
+  "Id": "RHHyfv5zKkCcecUXPZpidw",
+  "Reference": "JQ1CInOJHU20UrfXEmvzGQ/RHHyfv5zKkCcecUXPZpidw",
+  "ParentRef": "JQ1CInOJHU20UrfXEmvzGQ/5ztGRItlqEGIMAJ1Lem40g",
+  "Created": "2024-11-01T16:15:21.5624427Z",
+  "Updated": "2024-11-01T16:15:21.5624427Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

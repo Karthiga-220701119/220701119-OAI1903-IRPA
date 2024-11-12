@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="97R8_76W2UmPoD5_ovhhjw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="remove.bg" CVScreenId="c90654b5-05fa-4b04-a7a5-8ee3ab5e899d" CvElementArea="1151, 593, 276, 78" CvType="Button" DesignTimeRectangle="1151, 593, 276, 78" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='page-content' tag='BUTTON' type='button' class='rounded-full font-semi-bold transition ease-in-out text-center font-body no-underline hover:no-underline !px-7 !py-3 inline-flex items-center justify-center text-2xl font-bold !py-2.5 text-white !bg-primary hover:!bg-primary-hover active:!bg-primary-active active:scale-[0.97] focus:outline-none focus-visible:outline-none focus:ring-none focus-visible:ring focus-visible:ring-offset-2 focus-visible:ring-primary-hover' aaname='Upload Image' check:innerText='Upload Image' /&gt;" Guid="0b98ef21-6a0b-481b-908a-3b38ddebb619" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Remove Background from Image for Free – remove.bg' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c90654b5-05fa-4b04-a7a5-8ee3ab5e899d" CvElementArea="1151, 593, 276, 78" CvType="Button" DesignTimeRectangle="1188, 612, 201, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Upload Image' parentid='page-content' tag='DIV' type='' class='gap-3 [&amp;amp;&amp;gt;svg]:scale-133 [&amp;amp;&amp;gt;svg]:shrink-0 flex gap-2 items-center' check:innerText='Upload Image' /&gt;" Guid="bad72ee3-7e69-436e-847a-eaad90a31db4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5fac7e360fc6bae2599a12f296233973.png" xmlns="">01fClR9uHSEOnK6BGjaLBng</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

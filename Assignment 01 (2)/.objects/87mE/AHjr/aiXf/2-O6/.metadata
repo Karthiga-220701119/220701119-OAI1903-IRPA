@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Upload Image",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "2-O6vZjIoEyTdDTmqsEYTw",
+  "Reference": "Nw8sGOV-PkGVO3q3urMlUA/2-O6vZjIoEyTdDTmqsEYTw",
+  "ParentRef": "Nw8sGOV-PkGVO3q3urMlUA/aiXft6IvBkyeNwf1hOnlxg",
+  "Created": "2024-10-30T12:38:09.9384263Z",
+  "Updated": "2024-10-30T12:38:09.9384263Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

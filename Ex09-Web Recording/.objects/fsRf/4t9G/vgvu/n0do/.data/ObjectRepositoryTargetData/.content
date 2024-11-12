@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="k2CI9XbbAUGrt5m2pIFB9A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://docs.google.com/forms/d/e/1FAIpQLSevPvkVt-5bSDFLADQOf7q26jYjK0K7pzgeQ6ymkRVCPYosdA/viewform" CvElementArea="657, 798, 300, 35" CvType="InputBox" DesignTimeRectangle="664, 791, 295, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Your answer'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='14' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='aCsJod oJeWuf' tag='DIV' aaname='' /&gt;" Guid="dc98ac40-e3bd-418d-9046-6c28db46dfda" ScopeSelectorArgument="&lt;html app='chrome.exe' title='RPA Weekly Contest: Season 02 - Week 27 (Basic)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="662, 728, 102, 19" CvTextArgument="College Name" CvType="Text" DesignTimeRectangle="664, 725, 100, 24" FriendlyName="'College Name'" FullSelectorArgument="&lt;webctrl parentid='i16' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='i16' tag='SPAN' type='' class='M7eMe' aaname='College Name' check:innerText='College Name' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ef2470483b86c66855b455a7d4b9c589.png" xmlns="">0DqpA6xaoyUuq-ToFD-OJMQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

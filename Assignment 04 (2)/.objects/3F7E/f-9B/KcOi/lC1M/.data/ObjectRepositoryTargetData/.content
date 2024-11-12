@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yHKAbY5n4k6TIU80eR-K_A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" CVScreenId="9a54447f-6a11-4903-bccc-aeed51c903c7" CvTextArea="281, 436, 201, 55" CvType="AnyWordGroup" DesignTimeRectangle="284, 415, 853, 88" DesignTimeScaleFactor="1.375" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='wvKXQ' tag='DIV' type='' /&gt;" Guid="fc7f4a64-6080-4e7a-9c5b-aa13f87a5810" ScopeSelectorArgument="&lt;html app='chrome.exe' title='capital of iran - Google Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9a54447f-6a11-4903-bccc-aeed51c903c7" CvTextArea="374, 349, 97, 33" CvTextArgument="Capital" CvType="Text" DesignTimeRectangle="376, 344, 95, 38" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Capital' tag='SPAN' type='' class='' check:innerText='Capital' /&gt;" Guid="464abbe5-84de-4ec4-a0d8-98887a1ce9b3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="40f12f70e3df9f522d51a672b69ed872.png" xmlns="">0-MLRuz1YMEma8oU_HLXsiQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

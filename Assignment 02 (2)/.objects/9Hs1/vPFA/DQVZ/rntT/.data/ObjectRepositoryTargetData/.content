@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qYzFbbQ4TEarVxe4qpTGYw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="whatismyipaddress.com/ip/102.177.65.198" CVScreenId="c3495170-a5da-47ce-85d0-22c9ec5a1595" CvTextArea="414, 782, 120, 20" CvType="AnyWordGroup" DesignTimeRectangle="415, 777, 121, 29" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='fl-post-1165' tag='SPAN' type='' class='' /&gt;" Guid="4e82d153-cc04-4d37-8694-2c1fdbc365c5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='IP Address Lookup for 102.177.65.198 in Howick, South Africa' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c3495170-a5da-47ce-85d0-22c9ec5a1595" CvTextArea="269, 782, 83, 25" CvTextArgument="Country:" CvType="Text" DesignTimeRectangle="271, 777, 144, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Country:' parentid='fl-post-1165' tag='SPAN' type='' class='' check:innerText='Country:' /&gt;" Guid="11ea6930-5c1c-42ed-a3e7-2cca0e807eac" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5e109b0ad55d7ef95c3f0e280853896c.png" xmlns="">0l_QyTaIMxkmlO2eiGxWpmQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

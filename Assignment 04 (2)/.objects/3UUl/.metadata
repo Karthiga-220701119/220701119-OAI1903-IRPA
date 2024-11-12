@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome World Temperatures — Weather Around The World",
+  "Type": "App",
+  "Id": "3UUlgz4yAUyqwXMlouX_bA",
+  "Reference": "JQ1CInOJHU20UrfXEmvzGQ/3UUlgz4yAUyqwXMlouX_bA",
+  "Created": "2024-11-01T16:15:21.4403064Z",
+  "Updated": "2024-11-01T16:15:21.4403064Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eOSq-Oy0rEuPVBcddRupQw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.imdb.com/" DesignTimeRectangle="294, 216, 1056, 131" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Jailer2023Rajinikanth, …'" FullSelectorArgument="&lt;webctrl parentid='react-autowhatever-navSuggestionSearch--item-0' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='react-autowhatever-navSuggestionSearch--item-0' tag='A' type='' class='sc-iJCSeZ jCdGGi searchResult searchResult--const' aaname='Jailer2023Rajinikanth, Mohanlal' check:innerText='Jailer&amp;#xA;2023&amp;#xA;Rajinikanth, Mohanlal' /&gt;" Guid="f944d597-11f9-45db-bd6e-88b84f9c8795" ScopeSelectorArgument="&lt;html app='chrome.exe' title='IMDb: Ratings, Reviews, and Where to Watch the Best Movies &amp;amp; TV Shows' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4c8ebd7c5e30b7ccd3ef124616d41a1f.png" xmlns="">0MxQYkDRIek66tGsrtV0T4g</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

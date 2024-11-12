@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AQifphtRP0CgISdf3YJuNA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="timeanddate.com/weather" CVScreenId="21a52977-473d-4327-bdd2-38b1d48106fa" CvElementArea="1333, 384, 340, 42" CvType="InputBox" DesignTimeRectangle="1333, 385, 333, 40" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='picker-city__input' placeholder='Search for city or place…' aaname='' /&gt;" Guid="e4f45b6d-5f13-4aee-bd6c-2efc337d1b9d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='World Temperatures — Weather Around The World' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="21a52977-473d-4327-bdd2-38b1d48106fa" CvElementArea="1664, 384, 46, 42" CvType="Button" DesignTimeRectangle="1673, 390, 30, 30" FuzzySelectorArgument="&lt;webctrl type='' tag='I' class='i-font i-search' aaname='' /&gt;" Guid="3682b77c-45f8-41e8-b2f4-5704316ba893" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="18d9d5c9feeebed50a46d2f0ddee3972.png" xmlns="">0GwGkVo-T5ESCeDnt13tgUQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

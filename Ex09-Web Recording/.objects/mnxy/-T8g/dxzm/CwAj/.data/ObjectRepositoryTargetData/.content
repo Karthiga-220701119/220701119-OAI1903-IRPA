@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="izdv4t_h3kSnBerZPt8Kkg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.youtube.com/results?search_query=games" DesignTimeRectangle="155, 45, 750, 421" DesignTimeScaleFactor="1.5" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl aaname='         3:35     3:35   Now playing                            *' parentid='thumbnail' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='         3:35     3:35   Now playing                            *' parentid='thumbnail' tag='IMG' type='' class='yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded' /&gt;" Guid="21c3f980-5f14-4f4e-9ec8-8a317aad4ae9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='games - YouTube' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="929, 45, 869, 78" ElementType="Text" FriendlyName="'Indian Cars'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;ytd-app&amp;gt;div&amp;gt;ytd-page-manager&amp;gt;ytd-search&amp;gt;div&amp;gt;ytd-two-column-search-results-renderer&amp;gt;div&amp;gt;ytd-section-list-renderer&amp;gt;div&amp;gt;ytd-item-section-renderer&amp;gt;div&amp;gt;ytd-video-renderer&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h3' idx='2' parentid='title-wrapper' tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='title-and-badge style-scope ytd-video-renderer' parentid='title-wrapper' tag='H3' aaname='                               ' check:innerText='Indian Cars Simulator 3D: Modified Lamborghini Car Driver (Gadi Wala Game) - Car Game Android Game' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a8be3314c05df663b9f18a90f36d8035.png" xmlns="">0fIHSRh7mb0GBR-h6pmPByQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

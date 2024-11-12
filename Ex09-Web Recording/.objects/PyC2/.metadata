@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome: ui phoria rec - Yahoo India Search Results",
+  "Type": "App",
+  "Id": "PyC2WYgLmk-LVQfg9jxGWA",
+  "Reference": "n1ufM6Z4uE2XBpV4zToluA/PyC2WYgLmk-LVQfg9jxGWA",
+  "Created": "2024-09-03T18:13:18.5529148Z",
+  "Updated": "2024-09-03T18:13:18.5529148Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

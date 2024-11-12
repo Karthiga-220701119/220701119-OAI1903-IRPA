@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Vjz1tRBfaEutZB57YMskRg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="whatismyipaddress.com/ip/102.177.65.198" CVScreenId="aaa84b27-55d4-4a69-80ed-e6cb8bc16ff2" CvElementArea="619, 147, 434, 55" CvType="InputBox" DesignTimeRectangle="619, 147, 434, 56" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='search-field' placeholder='Enter Keywords or IP Address…' aaname='' /&gt;" Guid="147da3fd-05aa-47e7-b9b0-7f3aa3eb686d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='IP Address Lookup for 102.177.65.198 in Howick, South Africa' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="aaa84b27-55d4-4a69-80ed-e6cb8bc16ff2" CvElementArea="619, 147, 434, 55" CvType="InputBox" DesignTimeRectangle="620, 147, 433, 56" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname=' &amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9; &amp;#x9;' check:innerText='Search for:' /&gt;" Guid="44a58db1-dbf8-4969-b108-8251b480fea0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="438aa40c6f608477298c9d06e985b182.png" xmlns="">0qBqTBYocTUyAg9vwkBpejg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

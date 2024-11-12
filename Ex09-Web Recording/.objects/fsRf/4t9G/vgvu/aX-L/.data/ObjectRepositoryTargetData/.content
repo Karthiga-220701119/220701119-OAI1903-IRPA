@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CfUx56MXDkauqlmYUSI72w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.uiphoria.in/" DesignTimeRectangle="952, 244, 239, 60" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Question'" FullSelectorArgument="&lt;webctrl aaname='Question' parentid='navbarSupportedContent' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Question' parentid='navbarSupportedContent' tag='A' type='' class='dropdown-item nav-link' check:innerText='Question' /&gt;" Guid="2d99d38d-c4fa-4e7b-b2c7-93741232e9bd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPhoria' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a3f1a2d38ab7026751ff112c637f4f0c.png" xmlns="">0E-ws3qQhoESBXsFhp5D2ag</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

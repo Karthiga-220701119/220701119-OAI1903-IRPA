@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pg5bS2N0rkm1QDgMEW3LMQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvElementArea="193, 78, 1533, 54" CvType="InputBox" DesignTimeRectangle="246, 87, 1448, 37" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'https://www.imdb.com/'" FullSelectorArgument="&lt;ctrl name='New Tab - Google Chrome – KAVIBALAN P (rajalakshmi.edu.in)' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='New Tab - Google Chrome – KAVIBALAN P (rajalakshmi.edu.in)' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' /&gt;" Guid="be798366-4ea3-4ba7-862a-c14f9cecb050" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='New Tab - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="62e585b6206f628432f8366482e1d7de.png" xmlns="">0TBLuRSaFQ0um8dU1VlWwYg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

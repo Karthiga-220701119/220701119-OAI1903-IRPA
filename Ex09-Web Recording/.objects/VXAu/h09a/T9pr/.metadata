@@ -1,0 +1,13 @@
+﻿{
+  "Name": "New Tab - Google Chrome",
+  "Type": "Screen",
+  "Id": "T9prnx3tPEyUFAiEoKXc7A",
+  "Reference": "n1ufM6Z4uE2XBpV4zToluA/T9prnx3tPEyUFAiEoKXc7A",
+  "ParentRef": "n1ufM6Z4uE2XBpV4zToluA/h09ad6kmskyFbMjjsNQI0g",
+  "Created": "2024-08-01T03:38:04.5286077Z",
+  "Updated": "2024-08-01T03:38:04.5286077Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
